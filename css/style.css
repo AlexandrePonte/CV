@@ -1,9 +1,9 @@
 
 body { 
-background-color: #00248E; 
+background-color: #FFFFFF; 
 background-image: url();
 
-color: #ffffff;
+color: #000000;
 font-family: font-size: 12px; 
 font-style: normal; 
 font-weight: normal;
@@ -14,30 +14,51 @@ float:left;
 margin-right: 10px
 }
 
-a:link {color:#FF0000;}      /* unvisited link */
-a:visited {color:#00FF00;}  /* visited link */
-a:hover {color:#FF00FF;}  /* mouse over link */
-a:active {color:#0000FF;}  /* selected link */
+.arrondi {
+	border-radius: 10px;	
+}
+ section {
+ 	width: 800px;
+    margin: auto;	
+ }
 
-h1
-{
+a:link {color:#E0E0E0;}      /* unvisited link */
+a:visited {color:#E0E0E0;}  /* visited link */
+a:hover {color:#E0E0E0;}  /* mouse over link */
+a:active {color:#E0E0E0;}  /* selected link */
+
+h1 {
 	text-align: center;
 	font-weight: bold;
-	text-decoration:underline;
+	text-decoration:;
+	background-color: #DEF1FF;
+	padding: 10px;
+	width: 800px;
+    margin: auto;
+	border-radius: 10px;
+	text-shadow: 2px 2px 4px black;
+	box-shadow: 6px 6px 6px #DEF1FF
+
 }
 h2
 {
 	text-align: center;
 	font-weight: bold;
+	text-shadow: 2px 2px 4px black;
 }
 div#paragraphe
 {
     text-align: justify;
-    background-color: #0033CC;
+    background-color: #DEF1FF;
+    padding: 10px;
+    width: 800px;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 10px; 
+    box-shadow: 6px 6px 6px #DEF1FF;
+
 
 }
-
-
 div#coordonnees
 {
     text-align: justify;
